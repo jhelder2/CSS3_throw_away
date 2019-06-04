@@ -1,3 +1,27 @@
 
 .hidden {display: none;}
 
+.box {
+	text-align: center;
+	width:50px;
+	height: 50px;
+	background-color: red;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid black;
+	color: white;
+
+	transition: all .5s;
+}
+
+.box:hover {
+	-moz-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+
+	transform: rotate(15deg);
+	border-radius: 20px;
+	background-color: blue;
+	color: black;
+}
