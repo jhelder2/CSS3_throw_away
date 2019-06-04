@@ -45,7 +45,6 @@ main{
 	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 
-	transition: all 2s;
 }
 
 .blue {
@@ -60,3 +59,62 @@ main{
 	position: relative;
 	top: 5px;
 }
+
+/*nav bar */
+
+main {
+	margin: 0 auto; 
+	width: 900px;
+}
+
+#main-nav {
+	margin: 0;
+	padding: 0;
+	font-size: "Lucida Sans Unicode", "Lucide Grande", sans-serif;
+	height: 60px;
+
+	background: rgba(99, 171, 226);
+}
+
+#main-nav ul{
+	list-style-type: none;
+}
+
+#main-nav ul li{
+	float: left;
+}
+
+#main-nav ul li a{
+	display: block;
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	margin: 10px 0 30px 0;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	-webkit- transition: all 0.75s ease;
+	-moz- transition: all 0.75s ease;
+	-ms- transition: all 0.75s ease;
+	-o- transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+a:hover{
+	background-color: lightblue;
+	border-radius: 5px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
