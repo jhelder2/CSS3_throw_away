@@ -1,4 +1,7 @@
 *.ai
 *.psd
 *.ae
-.DS_Store
+.DS_Store.DS_Store
+*.ai
+*.psd
+node_modules
